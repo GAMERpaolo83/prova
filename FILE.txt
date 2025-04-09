@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Connect</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+        }
+        main {
+            padding: 2rem;
+        }
+        .button {
+            display: inline-block;
+            margin: 1rem;
+            padding: 1rem 2rem;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Game Connect</h1>
+        <p>Unisciti e conosci persone per giocare ai videogiochi!</p>
+    </header>
+    <main>
+        <h2>Benvenuto!</h2>
+        <p>Accedi o registrati per iniziare a connetterti con altri giocatori.</p>
+        <a href="#" class="button">Accedi</a>
+        <a href="#" class="button">Registrati</a>
+    </main>
+    <footer>
+        <p>&copy; 2023 Game Connect. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
